@@ -1,38 +1,66 @@
+@media (max-width: 600px) {
+  .Container{
+    width: 95%;
+  }
+}
+@media (min-width: 601px) {
+  .Container{
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media (min-width: 1101px) {
+  .Container{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+.Background{
+  background-color: lightslategrey;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: "mongolian baiti";
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.Nav{ 
+  width: 100%;
+  background-color: rgb(255, 94, 0);
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#Menu {
+  background-color: white;
   color: white;
+  font-size: 20px;
+  letter-spacing: 6px;
 }
-
-.App-link {
-  color: #61dafb;
+#Menu> div{
+  width: 200px;
+  background-color: rgb(255, 94, 0);
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Article{
+  background-color: white;
+  height: 1000px;
+  width: 100%;
+}
+.logo_grande{
+  height:170px;
 }
