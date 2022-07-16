@@ -1,11 +1,11 @@
 @media (max-width: 600px) {
   .Container{
-    width: 95%;
+    width: 100%;
   }
 }
 @media (min-width: 601px) {
   .Container{
-    width: 75%;
+    width: 65%;
     display:flex;
     flex-direction: column;
     align-items: start;
@@ -13,7 +13,7 @@
 }
 @media (min-width: 1101px) {
   .Container{
-    width: 50%;
+    width: 35%;
     display:flex;
     flex-direction: column;
     align-items: start;
@@ -43,23 +43,20 @@
   align-items: center;
 }
 #Menu {
-  background-color: white;
+  background-color: transparent;
   color: white;
   font-size: 20px;
+  width: 100%;
   letter-spacing: 6px;
+  display:flex;
 }
-#Menu> div{
+#Menu> div:first-child{
   width: 200px;
   background-color: rgb(255, 94, 0);
   height: 50px;
   display:flex;
   justify-content: center;
   align-items: center;
-}
-.Article{
-  background-color: white;
-  height: 1000px;
-  width: 100%;
 }
 .logo_grande{
   height:170px;

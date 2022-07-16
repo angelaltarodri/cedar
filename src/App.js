@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './images/logogrande_bn.png'
-
+import Article from './components/Articles/Article';
 function App() {
 
   window.onscroll = function() {myFunction()};
@@ -19,12 +19,10 @@ function App() {
         <div className="Container">
           <div id="Menu">
             <div>
-              ARTICULOS
+              ARTÍCULOS
             </div>
           </div>
-          <div className="Article">
-            Sherlin
-          </div>
+          <Article />
         </div>
       </div>
     </div>
